@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #FDF2E9;
+}
+h1 {
+    margin-top: 20%;
+    color: #784212;
+    text-align: center;
+}
+h3 {
+    color: #784212;
+    text-align: center;
+    margin-bottom: 5%;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
