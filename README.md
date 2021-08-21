@@ -18,7 +18,7 @@ Fondement de la communication de données pour le WWW. Sa fonction principale es
 **HEADERS** Les champs d'en-tête HTTP sont des composants de la section d'en-tête des requêtes et réponses dans le protocole HTTP.
 Ils définisent les paramètres de fonctionnement d'une transaction. 
 
-***TCP** Transmission Control Protocol : protocole de transport des fux de données sur une connexion réseau.
+**TCP** Transmission Control Protocol : protocole de transport des fux de données sur une connexion réseau.
 
 **SOKET** Flux de communication entre deux objets client/server. 
 Mécanisme fourni par la plupart des système d'exploitation pour permettre aux programmes d'accéder au réseau.
@@ -31,16 +31,16 @@ Par défaut, les opération sur les sockets TCP sont bloquante. La fonction *acc
 **CGI** Common Gateway Interface : Interface de passerelle commune utilisée par les serveur HTTP. Au lieu d'envoyer le contenu d'un fichier (html, image...) le serveur HTTP exécute un programme puis retourne le contenu généré. CGI est un protocole qui indique comment transmettre la requête du server HTTP au programme et récupérer la réponse générée. Il faut configurer le serveur HTTP pour associer l'exécution du programme CGI à certaine URL.
 
 **run** 
-
+---
 `make && ./webserv configfiles/simple_server.conf`
 
 http://localhost:8085/
 
 ### Ressources
-https://medium.com/from-the-scratch/http-server-what-do-you-need-to-know-to-build-a-simple-http-server-from-scratch-d1ef8945e4fa
-https://www.tutorialspoint.com/http/http_overview.htm
-https://web.maths.unsw.edu.au/~lafaye/CCM/sockets/sockfonc.htm
-https://www.ibm.com/docs/en/i/7.2?topic=designs-using-poll-instead-select
-https://stackoverflow.com/questions/5106674/error-address-already-in-use-while-binding-socket-with-address-but-the-port-num
-https://www.scottklement.com/rpg/socktut/nonblocking.html
-https://broux.developpez.com/articles/c/sockets/
+* https://medium.com/from-the-scratch/http-server-what-do-you-need-to-know-to-build-a-simple-http-server-from-scratch-d1ef8945e4fa
+* https://www.tutorialspoint.com/http/http_overview.htm
+* https://web.maths.unsw.edu.au/~lafaye/CCM/sockets/sockfonc.htm
+* https://www.ibm.com/docs/en/i/7.2?topic=designs-using-poll-instead-select
+* https://stackoverflow.com/questions/5106674/error-address-already-in-use-while-binding-socket-with-address-but-the-port-num
+* https://www.scottklement.com/rpg/socktut/nonblocking.html
+* https://broux.developpez.com/articles/c/sockets/
